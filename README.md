@@ -9,7 +9,6 @@ Things to Consider:
 * The entire project should be written in Kotlin.
 * No assumptions should be made on the inputs of the width and height fields.
 * The rows and columns variables should not be considered final. If they are changed at compile time, both the displaying of the canvas and the flood fill algorithm should still work.
-* You can add as many new methods, variables, objects, classes (etc.) as you want.
 * You can change the parameters of the given methods if you deem it necessary.
 * The only thing expected is to fill out those 2 methods, but feel free to go further if wanted. Anything extra (such as tests) will be counted as bonus points!
 * Feel free to use StackOverflow or any other online resource as you would normally do (although please do not search for the answer directly!).

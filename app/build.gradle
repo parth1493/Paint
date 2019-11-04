@@ -23,10 +23,14 @@ android {
 }
 
 dependencies {
+    ext.anko_version='0.10.8'
+    // Anko Commons
+    implementation "org.jetbrains.anko:anko-commons:$anko_version"
     implementation"org.jetbrains.kotlin:kotlin-stdlib-jdk8:$kotlin_version"
     implementation 'androidx.appcompat:appcompat:1.1.0'
     implementation 'androidx.core:core-ktx:1.1.0'
-    testImplementation 'junit:junit:4.12'
+    testImplementation("org.junit.jupiter:junit-jupiter-api:5.1.0")
+    testRuntimeOnly("org.junit.jupiter:junit-jupiter-engine:5.1.0")
     androidTestImplementation 'androidx.test:runner:1.2.0'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
 }
